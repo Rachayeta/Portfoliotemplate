@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+h1,h2,h3,h4,h5,h6,p,span,a,li,ul,button{
+	font-family: 'Open Sans', sans-serif;
+}
+ 
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+
+.header{
+	background-image: url(../img/banner/banner.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+
+.sticky{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	right:0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	z-index: 9999;
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.navbar{
+	padding: 25px 0;
+}
+
+.nav-link{
+	color: white !important;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.nav-link:hover{
+	font-weight: 800;
+}
+
+.htext{
+	width: 100%;
+	color: white !important;
+	height: 60vh;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.htext h1{
+	font-weight: 600;
+    font-size: 52px;
+
+    
+}
+.h5{
+	margin: 26px;
+}
+.htext .h5 h5{
+	font-size: 25px;
+	font-weight: 400;	
+}
+.icon{
+	text-align: center;
+}
+.icon a i{
+	height: 50px;
+    width: 50px;
+    background: #ffb233;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 50px;
+    color: white;
+}
+
+/**************2nd part css*****************/
+
+.upper{
+	text-align: center;
+	padding: 60px 0;
+}
+
+.upper h2{
+	font-size: 38px !important;
+    letter-spacing: 3px;
+    margin-bottom: 36px;
+    font-weight: 600;
+}
+
+.upper h6{
+	margin: 25px;
+    font-size: 25px !important;
+    font-weight: 500;
+    color: #c6c6c5;
+}
+.upper p{
+	padding: 16px 47px;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.secicon ul  li{
+	list-style: none;
+	display: inline-block;
+}
+.secicon ul  li a i{
+	height: 50px;
+    width: 50px;
+    background: #c6c6c5;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 50px;
+    color: white;
+    margin: 20px 30px;
+    transition: all 0.4s ease-in-out;
+    font-size: 20px;
+}
+
+.secicon ul  li a i:hover{
+	background:  #ffb233;
+	transition: all 0.4s ease-in-out; 
+}
+
+.secbutton button{
+	color: #51a351 ;
+	background: none;
+	padding: 15px 40px;
+	margin-top: 20px;
+	outline: none;
+	border: 2px solid #51a351;
+	border-radius: 10px;
+
+}
+
+/**************3rd part css*****************/
+
+.thpart{
+	background-image: url(../img/banner/whatIsay.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+
+.thpart .overlay{
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.lower{
+	text-align: center;
+    padding: 128px 0;
+}
+
+.thpart .lower h2{
+	font-size: 38px !important;
+    letter-spacing: 4px;
+    margin-bottom: 36px;
+    color: white;
+    font-weight: 600;
+}
+
+.thicon{
+	margin-top: 149px;
+}
+
+.thicon ul li{
+	list-style: none;
+	display: inline-block;
+	
+}
+
+.thicon ul li a i{
+	height: 110px;
+    width: 110px;
+    background: #ffb233;
+    border-radius: 70px;
+    line-height: 110px;
+    color: white;
+    font-size: 50px;
+    margin: 0px 51px;
+    border: 4px solid #ffb233; 
+    transition: all 0.4s ease-in-out; 
+}
+
+.thicon ul li a i:hover{
+	border-color: #735629;
+	transition: all 0.4s ease-in-out; 	
+}
+
+.thicon ul li a p{
+	margin-top: 11px;
+    color: white;
+}
+
+
+/******************counter plugin*******************8*/
+
+.fpart{
+	padding: 150px 0;
+	width: 100%;
+	background-color: #f3f4ff;
+
+}
+
+.count{
+	text-align: center;
+}
+
+.count h1{
+	font-size: 47px;
+	font-weight: 700;
+}
+
+.count .line{
+	width: 30%;
+	margin: 0 auto;
+	background-color:#51a351 !important;
+	height: 3px;
+	margin-bottom: 10px;
+}
+.count p{
+	font-style: italic;
+	font-size: 20px;
+}
+
+/*************************Isotope Plugin****************************************/
+
+.sixpart{
+	padding: 30px 0;
+	width: 100%;	
+}
+.content{
+	text-align: center;
+}
+
+.sixpart h1{
+	letter-spacing: 3px;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	margin: 30px 25px;
+	font-size: 18px !important;
+}
+
+.gallery{
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.img1{
+	margin: 10px;
+}
+
+.img1{
+	position: relative;
+}
+
+											/*without transition*/
+											/*.isoshadow{
+												position: absolute;
+												background-color: rgba(0,0,0,0.5);
+												left: 0;
+												bottom: 0;
+												right: 0;
+												top: 0;
+												padding: 52px 35px;
+											    text-align: left; 
+											    display: none;  
+											}
+
+											.img1:hover .isoshadow{
+												display:block;
+											}
+											*/
+/*With Transtition Effect*/
+.isoshadow{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 0%;
+	background:rgba(0,0,0,0.5); 
+	text-align: left;
+	overflow: hidden;
+	transition: 0.5s ease-in-out;
+}
+
+.img1:hover .isoshadow{
+	
+	height: 100%;
+	transition: 0.5s ease-in-out;
+}
+
+.hovermargin{
+	margin: 40px 30px;
+}
+
+.book2 a i{
+	margin-top: -6px;
+}
+
+.img1:hover .book{
+	transition: 0.5s ease-in-out;
+}
+
+.book .hovermargin{
+	margin: 25px 30px;
+}
+/*with transition end here*/
+
+.isoshadow h3{
+	color: #19bd9a;
+}
+
+.isoshadow .line{
+	width: 30%;
+	background-color:#19bd9a !important;
+	height: 3px;
+	margin-bottom: 10px;
+}
+
+.isoshadow p{
+	color: white;
+	font-size: 14px;
+}
+
+.iiso{
+	text-align: center;
+}
+
+.isoshadow a i{
+	color: white;
+	height: 50px;
+	width: 50px;
+	border: 2px solid white;
+	border-radius: 70px;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 20px;
+}
+
+.isoshadow a i:hover{
+	
+	border: 3px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************* owl caraosel part*****************/
+.fipart{
+	background-image: url(../img/testimonial.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+}
+
+
+.left{
+	text-align: center;
+    padding: 50px 0;
+}
+
+.left h1{
+	font-size: 40px;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+
+.left p{
+	padding: 1px 73px;
+    line-height: 37px;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.left h5{
+	font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.left h6{
+	font-size: 15px;
+    margin-top: 17px;
+
+}
+
+
+.owl-carousel .owl-item img{
+	width: 10% !important;
+	margin: 0 auto;
+}
+
+.owl-theme .owl-nav{
+	display: none;
+}
+
+.owl-theme .owl-dots{
+	margin-top: 10px;
+}
+
+
+/********************last part ****************************/
+
+.lastpart{
+	background-image: url(../img/banner/footer.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 105vh;
+	width: 100%;
+}
+
+.contact-text {
+	margin-top: 70px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.contact-text h3{
+	color: white;
+    letter-spacing: 3px;
+}
+
+.contact-text p{
+	color: white;
+    margin-top: 40px;
+    font-size: 15px
+}
+
+.contact-text a{
+	color: white;
+    text-align: left;
+}
+
+.email{
+	margin-top: 70px;
+    color: white;
+}
+
+.email h6{
+	text-align: left;
+    color: #C7C7C7;
+}
+
+.email p{
+	text-align: left
+}
+
+.form{
+	text-align: center;
+    margin-top: 100px;
+}
+
+.form input{
+	background: transparent;
+    border: 2px solid white;
+}
+
+.info1 input{
+	padding: 10px 30px;
+    margin-left: 20px;
+}
+
+.form .info1 input::focus{
+	border: 2px solid  #ffb233;
+}
+
+.message{
+	margin-top: 10px;
+    margin-left: 20px;
+}
+
+.message input{
+	padding: 60px 165px;
+    text-align: center;
+}
+.button{
+	margin-left: 20px;
+    margin-top: 10px;
+}
+.button button{
+	text-align: center;
+    background: #51a351;
+    color: white!important;
+    outline: none;
+    padding: 10px 200px;
+}
+
+.lasttext{
+	color: white;
+	margin-top: 10px;
+}
